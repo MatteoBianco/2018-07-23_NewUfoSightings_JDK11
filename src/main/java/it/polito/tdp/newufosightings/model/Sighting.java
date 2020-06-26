@@ -24,7 +24,7 @@ public class Sighting {
 		this.id = id;
 		this.datetime = datetime;
 		this.city = city;
-		this.state = state;
+		this.state = state.toUpperCase();
 		this.country = country;
 		this.shape = shape;
 		this.duration = duration;
